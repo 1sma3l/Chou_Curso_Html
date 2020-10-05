@@ -1,0 +1,40 @@
+.header {
+    height: 50px;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.header li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* tablet */
+@media (min-width: 500px) {
+    .header {
+        background-color: red;
+    }
+
+    .header li a {
+        color: greenyellow;
+    }
+}
+
+/* laptop */
+@media (min-width: 900px) {
+    .header {
+        background-color: blue;
+    }
+}
+
+/* escritorio */
+@media (min-width: 1200px) {
+    .header {
+        background-color: yellow;
+    }
+}
